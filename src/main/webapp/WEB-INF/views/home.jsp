@@ -18,8 +18,6 @@
 	<body>
 		<div class="container">
 			<div>
-				<p><h4>Animal Medical Imaging</h4> </p> 
-				<hr/>
 				<div ng-view></div>
 			</div>
 		</div>
