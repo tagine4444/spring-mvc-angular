@@ -36,4 +36,20 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	public String login(Model model) {
+		
+		
+		return "login";
+	}
+	@RequestMapping(value = "/amilogin?", method = RequestMethod.POST)
+	public String amiLogin(Model model) {
+		
+		
+		return "redirect:#/amicust";
+	}
+	
+	
+	
+	
 }
